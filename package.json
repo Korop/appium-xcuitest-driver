@@ -13,7 +13,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/appium-xcuitest-driver.git"
+    "url": "git+https://github.com/Korop/appium-xcuitest-driver.git"
   },
   "bugs": {
     "url": "https://github.com/appium/appium-xcuitest-driver/issues"
@@ -37,9 +37,9 @@
     "@babel/runtime": "^7.0.0",
     "appium-base-driver": "^3.0.0",
     "appium-idb": "^0.1.0",
-    "appium-ios-driver": "^4.0.0",
+    "appium-ios-driver": "github:Korop/appium-ios-driver#release-v4.3.0",
     "appium-ios-simulator": "^3.11.0",
-    "appium-remote-debugger": "^4.0.0",
+    "appium-remote-debugger": "^4.4.1",
     "appium-support": "^2.26.1",
     "appium-xcode": "^3.8.0",
     "async-lock": "^1.0.0",
@@ -109,5 +109,6 @@
   },
   "greenkeeper": {
     "ignore": []
-  }
+  },
+  "homepage": "https://github.com/Korop/appium-xcuitest-driver#readme"
 }
